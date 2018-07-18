@@ -1,3 +1,18 @@
+/*轮播图样式*/
+.slide {
+    width: 100%;
+    height: 400px;
+    margin: 1px 0 12px 0;
+}
+
+#boxId {
+    width: 1280px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #dddddd;
+}
+
 /*主页页面主体样式*/
 #content {
     width: 1280px;
