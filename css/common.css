@@ -1,0 +1,172 @@
+/*页面公共样式*/
+
+/*全局样式*/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    /*background: white;*/
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*页面头部样式*/
+#header {
+    width: 100%;
+}
+
+/*顶部栏样式*/
+#top {
+    display: flex;
+    display: -webkit-flex;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    background: black;
+}
+
+#logo {
+    height: 50px;
+    line-height: 50px;
+    margin-left: 50px;
+}
+
+#logo span{
+    display: block;
+    height: 50px;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: "华文新魏";
+}
+
+#menu ul{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+}
+
+#menu ul li {
+    height: 50px;
+    line-height: 50px;
+}
+
+#menu ul li a {
+    display: block;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: darkgrey;
+}
+
+#menu ul li a:hover, #menu ul li a.checked {
+    color: white;
+    background: rgb(62, 97, 173);
+}
+
+#search {
+    margin-right: 50px;
+}
+
+#search form {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+#search form input, #search form button {
+    margin-top: 5px;
+    height: 40px;
+    border: none;
+}
+
+#search form input {
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#search button {
+    padding: 5px 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#search button:hover {
+    cursor: pointer;
+}
+
+/*轮播图样式*/
+.slide {
+    width: 100%;
+    height: 400px;
+    margin: 1px 0 12px 0;
+}
+
+#boxId {
+    width: 1280px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #dddddd;
+}
+
+/*页面底部样式*/
+#footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    background: #f0f0f0;
+    color: rgb(51, 51, 51);
+}
+
+#footer a{
+    color: rgb(51, 51, 51);
+}
+
+#footer a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+#footer #about{
+    display: flex;
+    display: -webkit-flex;
+    height: 100%;
+    padding-top: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#footer #about .link {
+    height: 150px;
+}
+
+#footer #about .link p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#footer #about .link ul li, #footer #about #weixi p {
+    margin-top: 5px;
+}
+
+#footer #about #weixi{
+    text-align: center;
+}
+
+#footer>p {
+    text-align: center;
+    margin-bottom: 10px;
+}
