@@ -1,0 +1,95 @@
+/*关于本站样式*/
+/*主体内容样式*/
+#content {
+    display: flex;
+    display: -webkit-flex;
+    width: 1280px;
+    margin: 12px auto;
+}
+
+/*左边内容样式*/
+#left, #right {
+    flex-basis: 230px;
+    background: rgb(239, 239, 239);
+}
+
+#left>h2, #right>h2 {
+    background: rgb(182, 182, 182);
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+#left, #left>h2, #right, #right>h2  {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#left>ul>li{
+    width: 160px;
+    height: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+#left>ul>li>a, #right>p {
+    color: #666666;
+}
+
+#left>ul>li>a.checked, #left>ul>li>a:hover {
+    color: red;
+}
+
+/*中间内容样式*/
+#middle {
+    flex-grow: 1;
+    padding: 20px 10px;
+    background: rgb(249, 249, 249);
+}
+
+#middle>h2 {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#middle>h4 {
+    margin-top: 10px;
+}
+
+#middle>h2:before {
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin-right: 8px;
+    vertical-align: middle;
+    background: rgb(174, 65, 65);
+}
+
+#middle>span {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: "华文新魏";
+}
+
+#middle>p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/*右边内容样式*/
+#right {
+    text-align: center;
+}
+
+#right>img {
+    padding: 10px 20px;
+    width: 140px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
