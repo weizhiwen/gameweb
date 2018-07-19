@@ -19,15 +19,16 @@ a {
 
 /*页面头部样式*/
 #header {
+    width: 100%;
+    height: auto;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
-    width: 100%;
-    height: auto;
 }
 
 /*顶部栏样式*/
 #top {
+    width: 100%;
     display: flex;
     display: -webkit-flex;
     height: 50px;

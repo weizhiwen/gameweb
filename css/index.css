@@ -1,3 +1,7 @@
+#main {
+    min-width: 1280px;
+}
+
 /*轮播图样式*/
 .slide {
     width: 100%;
