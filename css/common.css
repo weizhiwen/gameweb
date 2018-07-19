@@ -40,7 +40,7 @@ a {
     margin-left: 50px;
 }
 
-#logo span{
+#logo>span{
     height: 50px;
     line-height: 50px;
     color: white;
@@ -49,18 +49,18 @@ a {
     font-family: "华文新魏";
 }
 
-#menu ul{
+#menu>ul{
     display: flex;
     display: -webkit-flex;
     flex-direction: row;
 }
 
-#menu ul li {
+#menu>ul>li {
     height: 50px;
     line-height: 50px;
 }
 
-#menu ul li a {
+#menu>ul>li>a {
     display: block;
     height: 50px;
     padding: 0 20px;
@@ -68,7 +68,7 @@ a {
     color: darkgrey;
 }
 
-#menu ul li a:hover, #menu ul li a.checked {
+#menu>ul>li>a:hover, #menu>ul>li>a.checked {
     color: white;
     background: rgb(62, 97, 173);
 }
@@ -77,32 +77,32 @@ a {
     margin-right: 50px;
 }
 
-#search form {
+#search>form {
     display: flex;
     display: -webkit-flex;
     flex-direction: row;
     height: 50px;
 }
 
-#search form input, #search form button {
+#search>form>input, #search>form>button {
     margin-top: 5px;
     height: 40px;
     border: none;
 }
 
-#search form input {
+#search>form>input {
     padding-left: 10px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
-#search button {
+#search>form>button {
     padding: 5px 10px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 
-#search button:hover {
+#search>form>button:hover {
     cursor: pointer;
 }
 
@@ -140,13 +140,13 @@ a {
     height: 150px;
 }
 
-#footer #about .link p {
+#footer #about .link>p {
     font-weight: bold;
     margin-bottom: 10px;
     font-size: 18px;
 }
 
-#footer #about .link ul li, #footer #about #weixi p {
+#footer #about .link>ul>li, #footer #about #weixi>p {
     margin-top: 5px;
 }
 
