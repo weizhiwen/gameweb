@@ -19,7 +19,11 @@ a {
 
 /*页面头部样式*/
 #header {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
     width: 100%;
+    height: auto;
 }
 
 /*顶部栏样式*/
