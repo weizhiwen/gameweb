@@ -44,7 +44,7 @@ a {
     margin-left: 50px;
 }
 
-#logo>span{
+#logo>a{
     height: 50px;
     line-height: 50px;
     color: white;
